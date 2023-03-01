@@ -71,8 +71,8 @@ def clean_code (df):
 # _______________________________________________INICIO DA ESTRUTURA LÓGICA DO CÓDIGO__________________________________________________________
 
 # Importando dataframe
-base = pd.read_csv(r"C:\Users\usuario\Documents\projetos\FTC\train.csv")
-
+base = pd.read_csv('train.csv')
+#r"C:\Users\usuario\Documents\projetos\FTC\train.csv"
 # Fazendo uma cópia do DataFrame Lido
 df = clean_code(base)
 

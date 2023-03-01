@@ -121,8 +121,8 @@ def country_maps(df):
 # _______________________________________________INICIO DA ESTRUTURA LÓGICA DO CÓDIGO__________________________________________________________
 
 # Importando Dataframe
-df1 = pd.read_csv(r"C:\Users\usuario\Documents\projetos\FTC\train.csv")
-
+df1 = pd.read_csv('train.csv')
+#r"C:\Users\usuario\Documents\projetos\FTC\train.csv"
 # Limpando Dataframe
 df = clean_code(df1)
 
